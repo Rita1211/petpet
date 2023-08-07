@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181813017157",
+    "project_id": "petfirebase-6e19f",
+    "storage_bucket": "petfirebase-6e19f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181813017157:android:733d78b1c31835ad01412c",
+        "android_client_info": {
+          "package_name": "com.rgame.firebasetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181813017157-0kc21gqnkgqnhnla2s7qi59nk0fi86qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zsSeFqgobyewHYxpd5EYv7eKMC_25hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181813017157-0kc21gqnkgqnhnla2s7qi59nk0fi86qr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
