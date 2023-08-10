@@ -17,84 +17,69 @@ public class GameController : MonoBehaviour
     {
         
     }
-    public void SwitchScene1()
-    {
-        SceneManager.LoadScene(1);
-    }
-    
-    public void SwitchScene2()
-    {
-        SceneManager.LoadScene(2);
-    }
 
     public void SwitchScene0()
     {
         SceneManager.LoadScene(0);
     }
 
+    public void SwitchScene1()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void SwitchScene2()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void SwitchScene3()
     {
         SceneManager.LoadScene(3);
     }
-    public void SwitchKnowledge()
-    {
-        SceneManager.LoadScene("knowledge");
 
-    }
-    public void SwitchMain()
+    public void SwitchScene4()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene(4);
     }
-    public void Switchdog1()
+
+    public void SwitchScene5()
     {
-        SceneManager.LoadScene("dog1");
+        SceneManager.LoadScene(5);
     }
-    public void Switchdog2()
+
+    public void SwitchScene6()
     {
-        SceneManager.LoadScene("dog2");
+        SceneManager.LoadScene(6);
     }
-    public void Switchdog3()
+
+    public void SwitchScene7()
     {
-        SceneManager.LoadScene("dog3");
+        SceneManager.LoadScene(7);
     }
-    public void Switchdog4()
+
+    public void SwitchScene8()
     {
-        SceneManager.LoadScene("dog4");
+        SceneManager.LoadScene(8);
     }
-    public void Switchcat1()
+
+    public void SwitchScene9()
     {
-        SceneManager.LoadScene("cat1");
+        SceneManager.LoadScene(9);
     }
-    public void Switchcat2()
+
+    public void SwitchScene10()
     {
-        SceneManager.LoadScene("cat2");
+        SceneManager.LoadScene(10);
     }
-    public void Switchcat3()
+
+    public void SwitchScene11()
     {
-        SceneManager.LoadScene("cat3");
+        SceneManager.LoadScene(11);
     }
-    public void Switchcat4()
+
+    public void SwitchScene12()
     {
-        SceneManager.LoadScene("cat4");
-    }
-    public void Switchcat5()
-    {
-        SceneManager.LoadScene("cat5");
-    }
-    public void Switchbag()
-    {
-        SceneManager.LoadScene("bag");
-    }
-    public void Switchcamera()
-    {
-        SceneManager.LoadScene("camera");
-    }
-    public void Switchphoto()
-    {
-        SceneManager.LoadScene("photo");
-    }
-    public void Switchsetting()
-    {
-        SceneManager.LoadScene("setting");
+        SceneManager.LoadScene(12);
     }
 }
