@@ -454,7 +454,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1577427702}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchScene2
+        m_MethodName: SwitchSelect1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -587,7 +587,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1577427702}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchScene0
+        m_MethodName: SwitchChoice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

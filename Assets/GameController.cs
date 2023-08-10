@@ -18,68 +18,73 @@ public class GameController : MonoBehaviour
         
     }
 
-    public void SwitchScene0()
+    public void SwitchChoice()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(16);
     }
 
-    public void SwitchScene1()
+    public void SwitchIntro1()
+    {
+        SceneManager.LoadScene(17);
+    }
+
+    public void SwitchSelect1()
+    {
+        SceneManager.LoadScene(18);
+    }
+
+    public void SwitchIntro2()
+    {
+        SceneManager.LoadScene(19);
+    }
+
+    public void SwitchSelect2()
+    {
+        SceneManager.LoadScene(20);
+    }
+
+    public void SwitchIntro3()
+    {
+        SceneManager.LoadScene(21);
+    }
+
+    public void SwitchSelect3()
+    {
+        SceneManager.LoadScene(22);
+    }
+
+    public void SwitchIntro4()
+    {
+        SceneManager.LoadScene(23);
+    }
+
+    public void SwitchSelect4()
+    {
+        SceneManager.LoadScene(24);
+    }
+
+    public void SwitchIntro5()
+    {
+        SceneManager.LoadScene(25);
+    }
+
+    public void SwitchSelect5()
+    {
+        SceneManager.LoadScene(26);
+    }
+
+    public void SwitchIntro6()
+    {
+        SceneManager.LoadScene(27);
+    }
+
+    public void SwitchSelect6()
+    {
+        SceneManager.LoadScene(28);
+    }
+
+    public void SwitchMain()
     {
         SceneManager.LoadScene(1);
-    }
-
-    public void SwitchScene2()
-    {
-        SceneManager.LoadScene(2);
-    }
-
-    public void SwitchScene3()
-    {
-        SceneManager.LoadScene(3);
-    }
-
-    public void SwitchScene4()
-    {
-        SceneManager.LoadScene(4);
-    }
-
-    public void SwitchScene5()
-    {
-        SceneManager.LoadScene(5);
-    }
-
-    public void SwitchScene6()
-    {
-        SceneManager.LoadScene(6);
-    }
-
-    public void SwitchScene7()
-    {
-        SceneManager.LoadScene(7);
-    }
-
-    public void SwitchScene8()
-    {
-        SceneManager.LoadScene(8);
-    }
-
-    public void SwitchScene9()
-    {
-        SceneManager.LoadScene(9);
-    }
-
-    public void SwitchScene10()
-    {
-        SceneManager.LoadScene(10);
-    }
-
-    public void SwitchScene11()
-    {
-        SceneManager.LoadScene(11);
-    }
-
-    public void SwitchScene12()
-    {
-        SceneManager.LoadScene(12);
     }
 }
