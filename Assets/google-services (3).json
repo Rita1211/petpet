@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348480141331",
+    "project_id": "fir-petpetdiary",
+    "storage_bucket": "fir-petpetdiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348480141331:android:f80d0ab99daa98dc3de7e6",
+        "android_client_info": {
+          "package_name": "com.rgame.firebasetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348480141331-li3fhbg8hmiib74m58ae9m23v34c9214.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHHX1t1GqyjbF-rEdTMHJxtQkMU3SMNhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348480141331-li3fhbg8hmiib74m58ae9m23v34c9214.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
