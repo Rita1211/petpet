@@ -127,6 +127,8 @@ public class FirebaseAuthManager : MonoBehaviour
             user = loginTask.Result.User;
 
             Debug.LogFormat("{0} You Are Successfully Logged In ", user.DisplayName);
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("ready");
             
         }
     }
@@ -242,6 +244,7 @@ public class FirebaseAuthManager : MonoBehaviour
                 else
                 {
                     Debug.Log("Registration Sucessful Welcome " + user.DisplayName);
+                    UIManager.Instance.OpenLoginPanel();
                 }
 
 
