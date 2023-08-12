@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchcat4
         m_Mode: 1
@@ -614,6 +614,7 @@ GameObject:
   - component: {fileID: 403396217}
   - component: {fileID: 403396216}
   - component: {fileID: 403396219}
+  - component: {fileID: 403396220}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -699,6 +700,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b35e20b5edf99f4d9bc8f8b435a0a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &403396220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403396215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e473dfd33887a894d931d87673652d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &599455244
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +795,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchdog2
         m_Mode: 1
@@ -915,7 +928,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchcat2
         m_Mode: 1
@@ -1170,7 +1183,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchcat5
         m_Mode: 1
@@ -1371,7 +1384,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchdog4
         m_Mode: 1
@@ -1504,7 +1517,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchdog3
         m_Mode: 1
@@ -1637,7 +1650,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchcat1
         m_Mode: 1
@@ -1986,7 +1999,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: SwitchMain
         m_Mode: 1
@@ -2254,7 +2267,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchcat3
         m_Mode: 1
@@ -2476,7 +2489,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 403396219}
+      - m_Target: {fileID: 403396220}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: Switchdog1
         m_Mode: 1

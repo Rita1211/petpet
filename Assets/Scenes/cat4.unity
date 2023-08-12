@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 248949879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b35e20b5edf99f4d9bc8f8b435a0a58, type: 3}
+  m_Script: {fileID: 11500000, guid: e473dfd33887a894d931d87673652d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &858626123
@@ -727,7 +727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -299.2028, y: 554.40784}
+  m_AnchoredPosition: {x: -288, y: 554.40784}
   m_SizeDelta: {x: 129.9633, y: 102.6026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1457933930
@@ -776,7 +776,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 248949884}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchKnowledge
+        m_MethodName: Switchknowledge
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
